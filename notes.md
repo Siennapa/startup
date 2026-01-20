@@ -2,6 +2,12 @@
 
 [My startup - Simon](https://simon.cs260.click)
 
+## Git Practice Notes
+
+- Cloned my startup repository
+- Practiced git status, add, commit, and push
+- Learned how to edit files locally and on GitHub
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
