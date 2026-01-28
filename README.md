@@ -69,15 +69,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [x] **HTML pages** - I did complete this part of the deliverable.
-- [x] **Proper HTML element usage** - I did complete this part of the deliverable.
-- [x] **Links** - I did complete this part of the deliverable.
-- [x] **Text** - I did complete this part of the deliverable.
-- [x] **3rd party API placeholder** - I did complete this part of the deliverable.
-- [x] **Images** - I did complete this part of the deliverable.
-- [x] **Login placeholder** - I did complete this part of the deliverable.
-- [x] **DB data placeholder** - I did complete this part of the deliverable.
-- [x] **WebSocket placeholder** - I did complete this part of the deliverable.
+- [x] **HTML pages** - I did complete this part of the deliverable. I created the three pages necessary for my group voter application, including index, poll, and results. They link to each other and I can navigate between the pages.
+- [x] **Proper HTML element usage** - I did complete this part of the deliverable. I included elements such as body, header, main, nav, ul, li, footer, and section to organize each page.
+- [x] **Links** - I did complete this part of the deliverable. I added a link to my github.
+- [x] **Text** - I did complete this part of the deliverable. I added a placeholder login option, and added text and explanations to what each section is meant to do.
+- [x] **3rd party API placeholder** - I did complete this part of the deliverable. On the home page, the API will generate random poll questions.
+- [x] **Images** - I did complete this part of the deliverable. I added a placeholder logo on the home page.
+- [x] **Login placeholder** - I did complete this part of the deliverable. I added a sign up and log in placeholder and buttons on the home page.
+- [x] **DB data placeholder** - I did complete this part of the deliverable. This is where the poll results will be saved and is shown on the results page.
+- [x] **WebSocket placeholder** - I did complete this part of the deliverable. This will include live poll updates on the results page.
 
 ## 🚀 CSS deliverable
 
