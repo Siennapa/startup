@@ -125,6 +125,11 @@ input {
     outline: none;
 }
 
+input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px rgba(232, 93, 139, 0.15);
+}
+
 button {
     padding: 10px 14px;
     border-radius: 10px;
