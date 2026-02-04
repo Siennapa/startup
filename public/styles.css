@@ -82,3 +82,9 @@ img {
     height: auto;
     border-radius: 14px;
 }
+
+@media (max-width: 600px) {
+    header, main, footer { padding: 12px; }
+    nav { gap: 8px; }
+    nav a { flex: 1; text-align: center }
+}
