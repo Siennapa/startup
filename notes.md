@@ -30,6 +30,10 @@ Body, nav, header, main, footer
 
 ## CSS
 
+- Cloned simon-css
+- Used Live Server
+- Deployed with: ./deployFiles.sh -k ~/Documents/cs260/Casrm2024_.pem -h decidr.click -s simon
+
 This took a couple hours to get it how I wanted. It was important to make it responsive and Bootstrap helped with that. It looks great on all kinds of screen sizes.
 
 Bootstrap seems a bit like magic. It styles things nicely, but is very opinionated. You either do, or you do not. There doesn't seem to be much in between.
