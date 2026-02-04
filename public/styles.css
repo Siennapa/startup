@@ -40,7 +40,10 @@ nav a:hover {
 }
 
 section {
-
+    border: 1px solid #e6e6e6;
+    border-radius: 14px;
+    padding: 14px;
+    margin: 16px 0;
 }
 
 form {
