@@ -21,7 +21,22 @@ footer {
 }
 
 nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12 px;
+    margin-top: 10px;
+}
 
+nav a {
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: inherit;
+}
+
+nav a:hover {
+    background: #f4f4f4
 }
 
 section {
