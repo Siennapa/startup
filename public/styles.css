@@ -132,13 +132,15 @@ input:focus {
 
 button {
     padding: 10px 14px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    background: #fff
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    cursor: pointer;
+    font-weight: 800;
 }
 
 button:hover {
-    background: #f4f4f4
+    border-color: var(--accent);
 }
 
 img {
