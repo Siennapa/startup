@@ -54,17 +54,20 @@ footer {
 
 nav {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 12 px;
-    margin-top: 10px;
+    gap: 14 px;
+    margin-top: 14px;
 }
 
 nav a {
     text-decoration: none;
-    padding: 8px 10px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    color: inherit;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text);
+    background: var (--card);
+    font-weight: 700;
 }
 
 nav a:hover {
