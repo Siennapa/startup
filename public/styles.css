@@ -53,7 +53,9 @@ form {
 }
 
 label {
-
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
 }
 
 input {
