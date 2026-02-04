@@ -48,8 +48,8 @@ a {
 a:hover { color: var(--accent-dark); }
 
 footer {
-    border-top: 1px solid #ddd;
-    color: #555
+    color: var(--muted);
+    padding-bottom: 30px;
 }
 
 nav {
