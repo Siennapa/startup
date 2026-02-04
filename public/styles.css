@@ -119,9 +119,10 @@ label {
 
 input {
     width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
+    padding: 12px 12px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    outline: none;
 }
 
 button {
