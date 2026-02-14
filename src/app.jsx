@@ -34,7 +34,7 @@ export default function App() {
                 <footer>
                     <hr />
                     <span>Sienna Cicerone</span>{' '}
-                    <a href="https://github.com/Siennapa/YOUR_STARTUP_REPO">GitHub</a>
+                    <a href="https://github.com/Siennapa/startup">GitHub</a>
                 </footer>
             </div>
         </BrowserRouter>
