@@ -94,9 +94,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - I did not complete this part of the deliverable.
+- [x] **Bundled using Vite** - I converted my startup project to use Vite with React. I used Vite for development with hot reloading and built the production version using vite build before deploying it.
+- [x] **Components** - I converted my original HTML pages into separate React components (Home, Create & Vote, and Results). The HTML structure was moved into these components and uses the shared CSS styling.
+- [x] **Router** - I implemented React Router to navigate between the Home, Create & Vote, and Results pages. The app now works as a single-page React application instead of separate HTML files.
 
 ## 🚀 React part 2: Reactivity deliverable
 
