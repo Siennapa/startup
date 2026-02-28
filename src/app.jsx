@@ -9,6 +9,9 @@ import { Poll } from './poll';
 import { Results } from './results';
 
 export default function App() {
+    const storedUser = localStorage.getItem('username');
+    const [userName, setUserName] = React.useState(storedUser || '');
+    const [isLoggedIn, setIsLoggedIn] = React.useState(!!storedUser);
     return (
         <BrowserRouter>
             <div className="body">
