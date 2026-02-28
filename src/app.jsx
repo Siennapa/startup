@@ -47,8 +47,8 @@ export default function App() {
                             />
                         }
                     />
-                    <Route path="/poll" element={<Poll />} />
-                    <Route path="/results" element={<Results />} />
+                    <Route path="/poll" element={<Poll userName={userName} />} />
+                    <Route path="/results" element={<Results userName={userName}/>} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
 
