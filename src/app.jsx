@@ -28,7 +28,25 @@ export default function App() {
                 </header>
 
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route
+                        path="/"
+                        element={
+                            <Home
+                                userName={userName}
+                                isLoggedIn={isLoggedIn}
+                                onLogin={(name) => {
+                                    localStorage.setItem('username', name);
+                                    setUserName(name);
+                                    setIsLoggedIn(true);
+                                }}
+                                onLogout={() => {
+                                    localStorage.removeItem('username');
+                                    setUserName('');
+                                    setIsLoggedIn(false);
+                                }}
+                            />
+                        }
+                    />
                     <Route path="/poll" element={<Poll />} />
                     <Route path="/results" element={<Results />} />
                     <Route path="*" element={<NotFound />} />
