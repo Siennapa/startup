@@ -1,6 +1,9 @@
 import React from 'react';
 
 export function Home() {
+    const [usernameInput, setUsernameInput] = React.useState('');
+    const [passwordInput, setPasswordInput] = React.useState('');
+    const [randomIdea, setRandomIdea] = React.useState('');
     return (
         <main className="container-fluid bg-secondary text-center">
             <section>
@@ -15,26 +18,25 @@ export function Home() {
                 <div>
                     <label for="username">Username</label>
                     <input
-                    id="username"
-                    name="username"
-                    type="text"
-                    placeholder="sienna"
+                        value={usernameInput}
+                        onChange={(e) => setUsernameInput(e.target.value)}
                     />
                 </div>
 
                 <div>
                     <label for="password">Password</label>
                     <input
-                    id="password"
-                    name="password"
-                    type="password"
-                    placeholder="******"
+                        value={passwordInput}
+                        onChange={(e) => setPasswordInput(e.target.value)}
                     />
                 </div>
 
                 <div>
-                    <button type="button">Sign up</button>
-                    <button type="button">Log in</button>
+                    <button type="button" onClick={() => {
+                        PaymentResponse.onLogin(usernameInput);
+                    }}>
+                        Log in
+                    </button>
                 </div>
                 </form>
             </section>
