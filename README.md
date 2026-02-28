@@ -1,4 +1,4 @@
-# Your startup name here
+# Decidr
 
 [My Notes](notes.md)
 
@@ -102,8 +102,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **All functionality implemented or mocked out** - I did not complete this part of the deliverable.
-- [ ] **Hooks** - I did not complete this part of the deliverable.
+- [x] **All functionality implemented or mocked out** - All core application functionality is fully implemented, including creating polls, voting, viewing results, and simulating real-time updates using localStorage and setInterval to mock backend and WebSocket behavior.
+- [x] **Hooks** - I used React's useState hook to manage poll data, vote counts, and live activity feed updated, and useEffect to load persisted data from localStorage and simulate real-time updates during component lifecycle events.
 
 ## 🚀 Service deliverable
 
