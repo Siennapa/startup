@@ -43,7 +43,7 @@ export function Poll() {
             }
         }, []);
     
-      const hasPoll = options.length > 0 && Object.keys(votes).length > 0;
+        const hasPoll = options.length > 0 && Object.keys(votes).length > 0;
 
   return (
     <main className="container-fluid bg-secondary text-center">
